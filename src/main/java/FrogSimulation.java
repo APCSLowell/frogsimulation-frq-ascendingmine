@@ -18,7 +18,7 @@ public class FrogSimulation
 		/* to be implemented in part (a) */
 		int numHops = 0;
 		int pos = 0;
-		while(numsHops < maxHops){
+		while(numHops < maxHops){
 		  pos = pos + hopDistance();
 		  numHops++;  
 		}
@@ -34,7 +34,7 @@ public class FrogSimulation
 			counter++;
 		  }
 		}
-			return (double)counter/num;
+			return ((double)counter)/num;
 
 	}
 	
